@@ -1,6 +1,6 @@
 # FastAPI Backend for Multinomial NB Classifier
 
-This repository contains a simple backend service that demonstrates how to serve a trained machine learning model using FastAPI. I've developed this project to showcase the deployment of a Multinomial Naive Bayes classifier trained on the 20Newsgroups dataset.<br/>
+This repository contains a simple backend service that demonstrates how to serve a trained machine learning model using FastAPI. I've developed this project to showcase the deployment of a Multinomial Naive Bayes classifier trained on the 20Newsgroups dataset.
 
 ## 1. Project Overview
 

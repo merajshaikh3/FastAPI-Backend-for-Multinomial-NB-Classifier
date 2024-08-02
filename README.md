@@ -21,3 +21,11 @@ The goal of this project is to illustrate how a machine learning model can be in
 * **Model Loading:** The model and category labels are loaded from a joblib file (newsgroups_model.joblib) when the application starts.
 * **Prediction Endpoint:** The `/prediction` endpoint accepts a JSON payload with the text to classify and returns the predicted category.
 * **Caching Mechanism:** Predictions are cached to reduce computation time for repeated requests. The cache can be cleared using the `/cache` endpoint.
+
+## Running the Application
+
+### Using Docker
+
+* Build the docker image
+  ```bash
+  docker-compose build```

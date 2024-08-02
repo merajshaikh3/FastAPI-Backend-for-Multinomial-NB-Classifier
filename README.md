@@ -12,7 +12,7 @@ The goal of this project is to illustrate how a machine learning model can be in
 * **FastAPI:** A modern, fast web framework used to build the API endpoints.
 * **Serialization:** The trained model and category labels are stored in a joblib file for efficient loading and usage.
 * **Caching:** Response caching is implemented using joblib.Memory to speed up repeated requests.
-* **Data Validation:** Pydantic is used for validating input data and ensuring type safety.<br/>
+* **Data Validation:** Pydantic is used for validating input data and ensuring type safety.<br/><br/>
 
 ## 3. Project Structure
 

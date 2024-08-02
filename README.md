@@ -48,13 +48,13 @@ If you prefer to run the application without Docker, ensure you have Python 3.9.
 
 * **Install Dependencies:**
 
-```bash
-pip install -r requirements.txt```
+  ```bash
+  pip install -r requirements.txt```
 
 * **Start the Application:**
 
-```bash
-uvicorn app.main:app --reload```
+  ```bash
+  uvicorn app.main:app --reload```
 
 Visit http://127.0.0.1:8000/docs to explore the API documentation and test the endpoints.
 

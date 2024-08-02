@@ -1,10 +1,10 @@
 # FastAPI Backend for Multinomial NB Classifier
 
-This repository contains a simple backend service that demonstrates how to serve a trained machine learning model using FastAPI. I've developed this project to showcase the deployment of a Multinomial Naive Bayes classifier trained on the 20Newsgroups dataset (from scikit-learn).
+This repository contains a simple backend service that demonstrates how to serve a trained machine learning model using FastAPI. I've developed this project to showcase the deployment of a Multinomial Naive Bayes classifier trained on the 20Newsgroups dataset (from scikit-learn).<br/><br/>
 
 ## 1. Project Overview
 
-The goal of this project is to illustrate how a machine learning model can be integrated into a web application. The model is serialized using joblib and served through FastAPI, making it accessible via a RESTful API.
+The goal of this project is to illustrate how a machine learning model can be integrated into a web application. The model is serialized using joblib and served through FastAPI, making it accessible via a RESTful API.<br/><br/>
 
 ## 2. Key Components
 
@@ -24,7 +24,7 @@ The goal of this project is to illustrate how a machine learning model can be in
 
 * **Model Loading:** The model and category labels are loaded from a joblib file (newsgroups_model.joblib) when the application starts.
 * **Prediction Endpoint:** The `/prediction` endpoint accepts a JSON payload with the text to classify and returns the predicted category.
-* **Caching Mechanism:** Predictions are cached to reduce computation time for repeated requests. The cache can be cleared using the `/cache` endpoint.
+* **Caching Mechanism:** Predictions are cached to reduce computation time for repeated requests. The cache can be cleared using the `/cache` endpoint.<br/><br/>
 
 ## 5. Running the Application
 
@@ -40,7 +40,7 @@ The goal of this project is to illustrate how a machine learning model can be in
   ```bash
   docker-compose up```
 
-This will start the application on http://0.0.0.0:8000. You can access the interactive API documentation at http://localhost:8000/docs.
+This will start the application on http://0.0.0.0:8000. You can access the interactive API documentation at http://localhost:8000/docs.<br/><br/>
 
 ### 5.2 Without Using Docker
 
